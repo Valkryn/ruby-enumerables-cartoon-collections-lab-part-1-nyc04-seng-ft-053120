@@ -1,5 +1,6 @@
 def greet_characters(array)
- array.each
+  characters_array.each { | character |p "Hello #{character}" }
+end
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
